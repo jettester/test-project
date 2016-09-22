@@ -15,12 +15,7 @@ public class SimpleTest {
 
     @Test
     public void failed() {
-        assertThat(2 + 2, equalTo(6));
-    }
-
-    @Test
-    public void broken() {
-        throw new RuntimeException("wtf!?");
+        assertThat(2 * 2, equalTo(4));
     }
 
     @Test
